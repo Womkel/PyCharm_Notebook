@@ -4,4 +4,4 @@ def rect(leight, width):
     price = 1000 * area
     return area, perimetr, price
 x, y, e = rect(50, 100)
-print(x, y, e)
+print("area", x, "perimetr", y, "price", e)
