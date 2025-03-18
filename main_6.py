@@ -1,5 +1,6 @@
-def convert_km(miles):
-    kilometrs = miles * 1.61
-    return kilometrs
-distance = convert_km(200)
-print(distance)
+def rect(leight, width):
+    area = leight * width
+    perimetr = 2 * leight + 2 * width
+    return area, perimetr
+x, y = rect(50, 100)
+print(x, y)
