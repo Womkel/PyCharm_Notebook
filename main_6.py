@@ -5,3 +5,6 @@ def rect(leight, width):
     return area, perimetr, price
 x, y, e = rect(50, 100)
 print("area", x, "perimetr", y, "price", e)
+
+123
+123
