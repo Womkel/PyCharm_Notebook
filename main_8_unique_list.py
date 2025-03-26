@@ -1,6 +1,11 @@
 my_list = [1, 2, 2, 3, 4, 4, 5]
 my_list_2 = []
-[my_list_2.append(number) for number in my_list if number not in my_list_2]
+random = 0
+while random < len(my_list):
+    if my_list[random] not in my_list_2:
+        my_list_2.append(my_list[random])
+    random += 1
+#[my_list_2.append(number) for number in my_list if number not in my_list_2]
 #my_list_2 = []
 #for number in my_list:
  #   if number not in my_list_2:
